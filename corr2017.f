@@ -3,7 +3,7 @@
         real*8 :: hf1=-20.d0, hf2=-21.d0
         real*8 :: cc1=-3.d0, cc2=-2.d0
         real*8, external:: corr2017
-        write(*,*) corr2017(hf1,cc1,hf2,cc2,4)
+        write(*,*) "res", corr2017(hf1,cc1,hf2,cc2,4)
         stop
         end
 
